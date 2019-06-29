@@ -4,7 +4,12 @@ use actix_web::{http::header, web, App, HttpRequest, HttpServer, Result};
 fn jebaited(req: HttpRequest) -> Result<fs::NamedFile> {
     if let Some(user_agent) = req.headers().get(header::USER_AGENT) {
         if let Ok(user_agent_str) = user_agent.to_str() {
-            if user_agent_str.contains("Discordbot") || user_agent_str.contains("Electron") {
+            let user_agent_str = user_agent_str.to_ascii_lowercase();
+
+            if user_agent_str.contains("discord")
+                || user_agent_str.contains("electron")
+                || user_agent_str.contains("chrome/69")
+            {
                 return Ok(fs::NamedFile::open("praying-jesus.jpg")?);
             }
         }
