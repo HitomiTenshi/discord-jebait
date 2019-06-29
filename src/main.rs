@@ -9,6 +9,7 @@ fn jebaited(req: HttpRequest) -> Result<fs::NamedFile> {
             if user_agent_str.contains("discord")
                 || user_agent_str.contains("electron")
                 || user_agent_str.contains("chrome/69")
+                || user_agent_str.contains("mac")
             {
                 return Ok(fs::NamedFile::open("praying-jesus.jpg")?);
             }
