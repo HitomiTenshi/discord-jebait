@@ -1,0 +1,9 @@
+[package]
+name = "discord-jebait"
+version = "1.0.0"
+authors = ["Johann Rekowski <johann.rekowski@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+actix-web = "^1.0.3"
+actix-files = "^0.1.3"
