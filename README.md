@@ -1,6 +1,6 @@
 # Discord Jebait
 
-This server will inspect the **User-Agent** header of the HTTP request and serve a fake image for the Discord Bot (and also for Macs, because Discord servers are checking the URL with a Mac apparently as well).
+This server will inspect the **User-Agent** header of the HTTP request and serve a fake image for the Discord Bot.
 
 Opening the image in the browser reveals the real contents.
 
