@@ -13,6 +13,6 @@ Visit http://127.0.0.1:54299/praying-jesus.jpg when running the server. To see t
 ## Live examples
 
 - Greentext jebait: https://dekinai.moe/N9vQN.jpg
-- Gachi jebauit (**NSFW**): https://omegalul.dekinai.moe/praying-jesus.jpg
+- Gachi jebait **(NSFW)**: https://omegalul.dekinai.moe/praying-jesus.jpg
 
 Either paste those examples to someone in Discord (or in your own Discord server), or change your User-Agent to the string mentioned above in your browser and load / refresh the page.
